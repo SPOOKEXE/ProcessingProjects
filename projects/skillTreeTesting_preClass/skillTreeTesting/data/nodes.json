@@ -1,0 +1,37 @@
+[
+	{
+		"ID": "Test",
+		"Layer": 1,
+		"Depends": []
+	},
+	{
+		"ID": "Test2",
+		"Layer": 2,
+		"Depends": ["Test"]
+	},
+	{
+		"ID": "Test3",
+		"Layer": 3,
+		"Depends": ["Test2"]
+	},
+	{
+		"ID": "Test4",
+		"Layer": 2,
+		"Depends": ["Test"]
+	},
+	{
+		"ID": "Test5",
+		"Layer": 3,
+		"Depends": ["Test4", "Test2"]
+	},
+	{
+		"ID": "Test6",
+		"Layer": 6,
+		"Depends": ["Test5", "Test3"]
+	},
+	{
+		"ID": "Test7",
+		"Layer": 6,
+		"Depends": ["Test687"]
+	},
+]
